@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.phone-symbol img {
+    width: 21px; 
+    height: auto;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4479B8;
+    gap: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #4479B8;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.contact i {
+    margin-right: 5px;
+}
+
+.time-selection {
+    margin: 50px auto;
+    min-height: 100vh;
+}
+
+.time-selection h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.time-selection select {
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    width: 100%;
+    max-width: 310px;
+    color: #B9B6B6;
+}
+#time-select option{
+    background-color: #4B4B4B;
+    color: #fff;
+}
+.time-selection p {
+    font-size: 14px;
+    color: gray;
+}
+
+.time-selection button {
+    margin-top: 20px;
+    padding: 12px 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #4a7efc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.time-selection button i {
+    margin-left: 5px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #DBDBDB;
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+.centered-text {
+    text-align: center;
+}
